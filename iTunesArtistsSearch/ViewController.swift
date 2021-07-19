@@ -28,19 +28,25 @@ class ViewController: UIViewController {
         artistsTrackTableView.dataSource = self
         
         artistsTrackTableView.isHidden = true
-        artistsTrackTableView.isHidden = true
+        activityIndicator.isHidden = true
     }
 
     /// Search button will start the actvitiy indicator once it is tapped and will stop animating
     /// once the fetched data is available.
     @IBAction func searchButtonTapped(_ sender: Any) {
         
+        artistsTrackTableView.isHidden = true
+        
         beginLoading()
-                
+        
         if !(searchBarTextField.text?.isEmpty ?? true) {
             trackResult = NetworkService().FetchTracks(forArtistName: searchBarTextField.text ?? "")
             activityIndicator.startAnimating()
             DispatchQueue.main.async {
+                // I added sleep() to show the spinner is working
+                // This is only for demonstration purpose only.
+                sleep(1)
+                self.stopLoading()
                 self.artistsTrackTableView.isHidden = false
                 self.artistsTrackTableView.reloadData()
             }
@@ -49,18 +55,18 @@ class ViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true)
         }
-        
-        stopLoading()
     }
     
     // Mark:- Begin/Stop activity Indicator
     private func beginLoading() {
         artistsTrackTableView.isHidden = true
+        activityIndicator.isHidden = false
         activityIndicator.startAnimating()
     }
     
     private func stopLoading() {
         artistsTrackTableView.isHidden = false
+        activityIndicator.isHidden = true
         activityIndicator.stopAnimating()
     }
 }
