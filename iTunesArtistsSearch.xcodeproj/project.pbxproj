@@ -15,6 +15,17 @@
 		8AE95E3426A5E0390007A018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE95E3226A5E0390007A018 /* LaunchScreen.storyboard */; };
 		8AE95E3F26A5E0390007A018 /* iTunesArtistsSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E3E26A5E0390007A018 /* iTunesArtistsSearchTests.swift */; };
 		8AE95E4A26A5E0390007A018 /* iTunesArtistsSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E4926A5E0390007A018 /* iTunesArtistsSearchUITests.swift */; };
+		8AE95E5826A5E42E0007A018 /* ArtistsTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E5726A5E42E0007A018 /* ArtistsTrackTableViewCell.swift */; };
+		8AE95E5A26A5E5200007A018 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E5926A5E5200007A018 /* NetworkService.swift */; };
+		8AE95E5C26A5E55B0007A018 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E5B26A5E55B0007A018 /* ArtistModel.swift */; };
+		8AE95E5F26A5F3960007A018 /* ArtistModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E5E26A5F3960007A018 /* ArtistModelTests.swift */; };
+		8AE95E6226A5F67A0007A018 /* MockExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E6126A5F67A0007A018 /* MockExtensions.swift */; };
+		8AE95E6526A5F6DC0007A018 /* ArtistTrackViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E6426A5F6DC0007A018 /* ArtistTrackViewControllerTest.swift */; };
+		8AE95E6B26A5FCB40007A018 /* showTrackValidTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E6A26A5FCB40007A018 /* showTrackValidTest.swift */; };
+		8AE95E6D26A5FDD30007A018 /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AE95E6C26A5FDD30007A018 /* track.json */; };
+		8AE95E6F26A5FF670007A018 /* invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AE95E6E26A5FF670007A018 /* invalid.json */; };
+		8AE95E7426A605A90007A018 /* ArtistTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE95E7226A605A90007A018 /* ArtistTrackTableViewCell.swift */; };
+		8AE95E7526A605A90007A018 /* ArtistTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE95E7326A605A90007A018 /* ArtistTrackTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		8AE95E4526A5E0390007A018 /* iTunesArtistsSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesArtistsSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE95E4926A5E0390007A018 /* iTunesArtistsSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesArtistsSearchUITests.swift; sourceTree = "<group>"; };
 		8AE95E4B26A5E0390007A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE95E5726A5E42E0007A018 /* ArtistsTrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsTrackTableViewCell.swift; sourceTree = "<group>"; };
+		8AE95E5926A5E5200007A018 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8AE95E5B26A5E55B0007A018 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		8AE95E5E26A5F3960007A018 /* ArtistModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModelTests.swift; sourceTree = "<group>"; };
+		8AE95E6126A5F67A0007A018 /* MockExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExtensions.swift; sourceTree = "<group>"; };
+		8AE95E6426A5F6DC0007A018 /* ArtistTrackViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTrackViewControllerTest.swift; sourceTree = "<group>"; };
+		8AE95E6A26A5FCB40007A018 /* showTrackValidTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showTrackValidTest.swift; sourceTree = "<group>"; };
+		8AE95E6C26A5FDD30007A018 /* track.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
+		8AE95E6E26A5FF670007A018 /* invalid.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = invalid.json; sourceTree = "<group>"; };
+		8AE95E7226A605A90007A018 /* ArtistTrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTrackTableViewCell.swift; sourceTree = "<group>"; };
+		8AE95E7326A605A90007A018 /* ArtistTrackTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistTrackTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +128,11 @@
 				8AE95E3026A5E0390007A018 /* Assets.xcassets */,
 				8AE95E3226A5E0390007A018 /* LaunchScreen.storyboard */,
 				8AE95E3526A5E0390007A018 /* Info.plist */,
+				8AE95E5726A5E42E0007A018 /* ArtistsTrackTableViewCell.swift */,
+				8AE95E5926A5E5200007A018 /* NetworkService.swift */,
+				8AE95E5B26A5E55B0007A018 /* ArtistModel.swift */,
+				8AE95E7226A605A90007A018 /* ArtistTrackTableViewCell.swift */,
+				8AE95E7326A605A90007A018 /* ArtistTrackTableViewCell.xib */,
 			);
 			path = iTunesArtistsSearch;
 			sourceTree = "<group>";
@@ -113,6 +140,10 @@
 		8AE95E3D26A5E0390007A018 /* iTunesArtistsSearchTests */ = {
 			isa = PBXGroup;
 			children = (
+				8AE95E6926A5FC890007A018 /* NetworkParsingTest */,
+				8AE95E6326A5F6BE0007A018 /* Test Controllers */,
+				8AE95E6026A5F6600007A018 /* MockExtensions */,
+				8AE95E5D26A5F3590007A018 /* TestModel */,
 				8AE95E3E26A5E0390007A018 /* iTunesArtistsSearchTests.swift */,
 				8AE95E4026A5E0390007A018 /* Info.plist */,
 			);
@@ -126,6 +157,40 @@
 				8AE95E4B26A5E0390007A018 /* Info.plist */,
 			);
 			path = iTunesArtistsSearchUITests;
+			sourceTree = "<group>";
+		};
+		8AE95E5D26A5F3590007A018 /* TestModel */ = {
+			isa = PBXGroup;
+			children = (
+				8AE95E5E26A5F3960007A018 /* ArtistModelTests.swift */,
+			);
+			path = TestModel;
+			sourceTree = "<group>";
+		};
+		8AE95E6026A5F6600007A018 /* MockExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8AE95E6126A5F67A0007A018 /* MockExtensions.swift */,
+			);
+			path = MockExtensions;
+			sourceTree = "<group>";
+		};
+		8AE95E6326A5F6BE0007A018 /* Test Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AE95E6426A5F6DC0007A018 /* ArtistTrackViewControllerTest.swift */,
+			);
+			path = "Test Controllers";
+			sourceTree = "<group>";
+		};
+		8AE95E6926A5FC890007A018 /* NetworkParsingTest */ = {
+			isa = PBXGroup;
+			children = (
+				8AE95E6A26A5FCB40007A018 /* showTrackValidTest.swift */,
+				8AE95E6C26A5FDD30007A018 /* track.json */,
+				8AE95E6E26A5FF670007A018 /* invalid.json */,
+			);
+			path = NetworkParsingTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE95E7526A605A90007A018 /* ArtistTrackTableViewCell.xib in Resources */,
 				8AE95E3426A5E0390007A018 /* LaunchScreen.storyboard in Resources */,
 				8AE95E3126A5E0390007A018 /* Assets.xcassets in Resources */,
 				8AE95E2F26A5E0380007A018 /* Main.storyboard in Resources */,
@@ -241,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE95E6F26A5FF670007A018 /* invalid.json in Resources */,
+				8AE95E6D26A5FDD30007A018 /* track.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE95E7426A605A90007A018 /* ArtistTrackTableViewCell.swift in Sources */,
+				8AE95E5A26A5E5200007A018 /* NetworkService.swift in Sources */,
+				8AE95E5826A5E42E0007A018 /* ArtistsTrackTableViewCell.swift in Sources */,
 				8AE95E2C26A5E0380007A018 /* ViewController.swift in Sources */,
 				8AE95E2826A5E0380007A018 /* AppDelegate.swift in Sources */,
+				8AE95E5C26A5E55B0007A018 /* ArtistModel.swift in Sources */,
 				8AE95E2A26A5E0380007A018 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE95E6B26A5FCB40007A018 /* showTrackValidTest.swift in Sources */,
+				8AE95E5F26A5F3960007A018 /* ArtistModelTests.swift in Sources */,
+				8AE95E6526A5F6DC0007A018 /* ArtistTrackViewControllerTest.swift in Sources */,
 				8AE95E3F26A5E0390007A018 /* iTunesArtistsSearchTests.swift in Sources */,
+				8AE95E6226A5F67A0007A018 /* MockExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

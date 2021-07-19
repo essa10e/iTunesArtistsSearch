@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  iTunesArtistsSearch
 //
-//  Created by Essa Aldo on 7/19/21.
 //
 
 import UIKit
